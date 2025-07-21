@@ -31,4 +31,4 @@ RUN pip install -r requirements.txt
 EXPOSE 5000
 
 # Run using Gunicorn for production-like behavior (optional, can switch to `python app.py`)
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
+CMD ["python", "app.py"]
