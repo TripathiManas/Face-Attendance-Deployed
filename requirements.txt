@@ -1,6 +1,4 @@
-Flask
-gunicorn
-flask-cors
-opencv-python
-numpy
-Pillow
+Flask==2.2.5
+opencv-python==4.10.0.82
+deepface==0.0.83
+numpy==1.26.4  
