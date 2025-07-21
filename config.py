@@ -8,5 +8,5 @@ DB_PATH = os.path.join(BASE_DIR, "data", "known_faces")
 CSV_FILE = os.path.join(BASE_DIR, "data", "attendance.csv")
 
 # Model config
-MODEL_NAME = "Facenet"
+MODEL_NAME = "VGG_Face"
 THRESHOLD = 0.4
